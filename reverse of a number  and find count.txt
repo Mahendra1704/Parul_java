@@ -1,0 +1,26 @@
+ reverse of a number  and find counter (or) digit
+ 
+  public class newclass1{
+  public static void main(String[] args){
+    //find the reverse of a Number
+    //digit
+    int num = 12345;
+
+    //12345%10 =12345
+    //12345/10=1234
+    int reverse = 0;
+    int counter = 0;
+    
+    while(num!=0){
+      int last = num %10;
+      num = num/10;
+      reverse = reverse*10 + last;
+      counter++;
+  
+    }
+    System.out.println(reverse);
+     System.out.println(counter);
+    
+    
+  }
+}

@@ -1,0 +1,19 @@
+function with parameter no return type
+
+     public class newclass1 {
+  public static void main(String[]args){
+    //functions
+    //name of functions
+    //black of functions
+    //parameter//argument 
+    //returm Type
+    sum(10);// functions call 
+    sum(900);
+    sum(979);
+  }
+   static void sum(int a){
+    System.out.println(a+20);
+  }
+  
+  
+}

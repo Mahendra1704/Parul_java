@@ -1,0 +1,17 @@
+creating a function
+
+   public class newclass1 {
+  public static void main(String[]args){
+    //functions
+    //name of functions
+    //black of functions
+    //parameter//argument 
+    //returm Type
+    tonystark();//functions call
+  }
+   static void tonystark(){
+    System.out.println("hello");
+  }
+  
+  
+}

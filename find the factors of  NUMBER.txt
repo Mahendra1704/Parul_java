@@ -1,0 +1,22 @@
+find the factors of  NUMBER
+  
+   public class Main {
+
+  public static void main(String[] args) {
+
+    // find the factors of a number
+    int num = 12;
+
+    System.out.print("Factors of " + num + " are: ");
+
+  
+    for (int i = 1; i <= num; ++i) {
+
+      
+      
+      if (num % i == 0) {
+        System.out.print(i + " ");
+      }
+    }
+  }
+}

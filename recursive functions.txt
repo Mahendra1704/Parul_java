@@ -1,0 +1,14 @@
+recursive functions
+
+public class Main {
+    public static void main(String[] args) {
+    //functions
+    //recuesive functions
+    myfunc();
+  }
+  static void myfunc(){
+    System.out.println("my functions");
+    myfunc();
+  }
+}
+
